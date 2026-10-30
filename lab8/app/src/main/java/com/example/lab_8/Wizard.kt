@@ -1,5 +1,6 @@
 package com.example.lab_8
 
+// A wizard that can cast spells using mana
 class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     fun castSpell(spell: String): Int {
         when (spell) {
